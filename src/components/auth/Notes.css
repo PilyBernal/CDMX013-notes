@@ -12,8 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     background-color: #000000;
     border: 10px solid #FFABC9;
     border-radius: 30px;
@@ -22,57 +20,65 @@
 
   header {
     display: flex;
-    justify-content: space-between;
-    height: 20%;
     width: 100%;
-    margin-top: 10px;
-    padding-top: 10px;
-    margin-bottom: 0.3em;
     font-family: Dancing Script;
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
   }
   
-  .logo_notitas {
-    display: flex;
-    justify-content: flex-start;
-    padding-top:  0px;
+  .logo {
     width: 100px;
     height: 100px;
+    margin-right: 110px;
   }
   
   h1 {
-    display: flex;
-    text-align: center;
     font-family: Dancing Script;
-    align-items: center;
     color: #FFABC9;
+    margin-right: 60px;
   }
   
   .logout {
-    display: flex;
-    justify-content: flex-end;
     width: 100px;
     height: 100px;
-  }
-
-  main {
-    display: flex;
-    justify-content: flex-end;
+    margin-left: 50px;
   }
 
   .add {
+    margin-left: 550px;
+    margin-top: 70px;
+    margin-bottom: 20px;
     width: 70px;
     height: 70px;
   }
-  
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+    height: 2em;
+    border: 2px solid #FFABC9;
+    border-radius: 30px;
+    font-size: xx-large;
+    color: #FFFFFF;
+    font-family: Indie Flower;
+    margin-bottom: 30px;
+  }
+
   h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 12em;
-    height: 16.3em;
-    border: 3px solid #FFABC9;
+    height: 5em;
+    border: 2px solid #FFABC9;
     border-radius: 30px;
     font-size: xx-large;
-    color: #FFABC9;
+    color: #FFFFFF;
     font-family: Indie Flower;
+    margin-bottom: 338px;
   }
+
+  
