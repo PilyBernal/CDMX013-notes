@@ -19,8 +19,9 @@ function Add() {
       </main>
         
       <section> 
-      <img src = { save } className = 'save' alt = 'save' /> 
+        <button></button><img src = { save } className = 'save' alt = 'save' />
       </section>
+
           
     </div>
   );

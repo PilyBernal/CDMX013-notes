@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Dancing+Script&display=swap" rel="stylesheet');
-
+@import url('https: //fonts.googleapis.com/css2? family= Nerko+One & display=swap" rel="stylesheet');
 * {
     background-color: #000000;
     margin: 0;
@@ -63,7 +63,7 @@
     border-radius: 30px;
     font-size: xx-large;
     color: #FFFFFF;
-    font-family: Indie Flower;
+    font-family: Nerko One;
     margin-bottom: 30px;
   }
 
@@ -77,8 +77,8 @@
     border-radius: 30px;
     font-size: xx-large;
     color: #FFFFFF;
-    font-family: Indie Flower;
-    margin-bottom: 338px;
+    font-family: Nerko One;
+    margin-bottom: 340px;
   }
 
   

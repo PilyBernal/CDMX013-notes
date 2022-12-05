@@ -1,11 +1,11 @@
+import authWithGoogle from './authWithGoogle.js'
 import logo_notitas from '../../images/logo_notitas.png';
 import access from '../../images/access.png';
 import './Welcome.css';
-import Login from './Login.js'
-
 
 function Welcome(props) {
   const { setUser } = props;
+  
   return (
     <div className='Welcome'>
 
@@ -21,13 +21,16 @@ function Welcome(props) {
        
       <section>
         <button onClick = {() =>
-          Login()
+          authWithGoogle()
+          .then(user => setUser(user))
+          .catch(error => console.log(error))
         }><img src={access} className="access" alt="access" /></button>
       </section>
 
-          
     </div>
+    
   );
+  
 }
 
 export default Welcome;
