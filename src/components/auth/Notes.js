@@ -1,10 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import logo_notitas from '../../images/logo_notitas.png';
 import logout from '../../images/logout.png';
 import add from '../../images/add.png';
 import './Notes.css';
-import Add from './Add';
 
 function Notes() {
+  const navigate = useNavigate();
+
   return (
     <div className="Notes">
 
@@ -15,16 +17,16 @@ function Notes() {
       </header>
 
       <main>
-        <button onClick = {() =>
-          
-          console.log('click')
-          }><img src = { add } className = 'add' alt = 'add' /></button>
-          Add()
+        <button onClick = {()=>{
+          navigate('/Add')
+
+        }}>
+          <img src = { add } className = 'add' alt = 'add' /></button>
       </main>
         
       <section> 
         <h2>Título</h2>
-        <h3>Contenido</h3>
+        <h3>Aquí estará el contenido de tus notitas</h3>
       </section>
           
     </div>

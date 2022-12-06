@@ -46,7 +46,7 @@
   }
 
   .add {
-    margin-left: 550px;
+    margin-left: 600px;
     margin-top: 70px;
     margin-bottom: 20px;
     width: 70px;
@@ -68,17 +68,19 @@
   }
 
   h3 {
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 12em;
-    height: 5em;
+    width: 15em;
+    height: 7em;
     border: 2px solid #FFABC9;
     border-radius: 30px;
-    font-size: xx-large;
+    font-size: x-large;
     color: #FFFFFF;
     font-family: Nerko One;
-    margin-bottom: 340px;
+    margin-bottom: 325px;
   }
 
   
