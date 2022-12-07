@@ -21,10 +21,11 @@ function Welcome(props) {
        
       <section>
         <button onClick = {() =>
-          authWithGoogle()
-          .then(user => setUser(user))
-          .catch(error => console.log(error))
-        }><img src={access} className="access" alt="access" /></button>
+            authWithGoogle()
+              .then(user => setUser(user))
+              .catch(error => console.log(error))}>
+          <img src={access} className="access" alt="access" />
+        </button>
       </section>
 
     </div>

@@ -34,24 +34,13 @@ header {
   margin-left: 50px;
 }
 
-mains {
-  padding: 30px;
-  width: 90%;
-  height: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
-  
-}
-
-h4 {
+.input-title {
   width: 12em;
   height: 2.5em;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border: 2px solid #FFABC9;
   border-radius: 30px;
   color: white;
@@ -62,12 +51,14 @@ h4 {
   font-size: xx-large;
 }
 
-h5 {
+.input-content {
   width: 12em;
   height: 7em;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
+  text-align: center;
+  overflow: hidden;
   border: 2px solid #FFABC9;
   border-radius: 30px;
   color: white;

@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+import { getFirestore, collection, addDoc, getDocs } from 'firebase/firestore/lite';
 
 export { initializeApp };
 
@@ -33,5 +33,9 @@ async function getNotitas(db) {
   const notitasList = notitasSnapshot.docs.map(doc => doc.data());
   return notitasList;
 };
+
+export const saveNotitas = (notita) => {
+  addDoc(collection(db, 'notitas'), notita);
+}
 
 export { GoogleAuthProvider };

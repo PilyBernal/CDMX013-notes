@@ -19,7 +19,6 @@ function Notes() {
       <main>
         <button onClick = {()=>{
           navigate('/Add')
-
         }}>
           <img src = { add } className = 'add' alt = 'add' /></button>
       </main>
