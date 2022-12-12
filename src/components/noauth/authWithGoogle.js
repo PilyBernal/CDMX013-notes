@@ -10,7 +10,7 @@ function authWithGoogle() {
     
     // The signed-in user info.
     const user = result.user;
-    console.log(user)
+    console.log('Bienvenida a NOTITAS ' + user.email)
     return(user);
     // ...
   }).catch((error) => {

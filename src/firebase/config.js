@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { getFirestore, collection, addDoc, getDocs } from 'firebase/firestore/lite';
+import { getFirestore } from 'firebase/firestore/lite';
 
 export { initializeApp };
 
@@ -26,16 +26,5 @@ export const provider = new GoogleAuthProvider();
 export { signInWithPopup }
 
 export const db = getFirestore(app);
-
-async function getNotitas(db) {
-  const notitasCol = collection(db, 'notitas');
-  const notitasSnapshot = await getDocs(notitasCol);
-  const notitasList = notitasSnapshot.docs.map(doc => doc.data());
-  return notitasList;
-};
-
-export const saveNotitas = (notita) => {
-  addDoc(collection(db, 'notitas'), notita);
-}
 
 export { GoogleAuthProvider };

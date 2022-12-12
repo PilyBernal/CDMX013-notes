@@ -49,6 +49,7 @@ header {
   margin-top: 150px;
   font-family: Indie Flower;
   font-size: xx-large;
+  cursor: pointer;
 }
 
 .input-content {
@@ -66,6 +67,8 @@ header {
   margin-bottom: 30px;
   font-family: Indie Flower;
   font-size: xx-large;
+  cursor: pointer;
+  overflow-wrap: anywhere;
 }
 
 .save {

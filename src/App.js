@@ -23,6 +23,8 @@ function App () {
       <Routes>
         <Route path = '/' element = { <Notes /> } />
         <Route path = '/Add' element = { <Add /> } />
+        <Route path = '/Notes' element = { <Notes /> } />
+        <Route path = '/Welcome' element = { <Welcome /> } />
         <Route path = '*' element = { <NotFound /> } />
       </Routes>
        
