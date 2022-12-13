@@ -16,15 +16,15 @@ function App () {
       </Routes>
     );
   }
+
+  //const logout = () => setUser(null)
  
   return (
     <div className='App'>
  
       <Routes>
-        <Route path = '/' element = { <Notes /> } />
-        <Route path = '/Add' element = { <Add /> } />
-        <Route path = '/Notes' element = { <Notes /> } />
-        <Route path = '/Welcome' element = { <Welcome /> } />
+        <Route path = '/' element = { <Notes setUser = { setUser }/> } />
+        <Route path = '/Add' element = { <Add setUser = { setUser }/> } />
         <Route path = '*' element = { <NotFound /> } />
       </Routes>
        
