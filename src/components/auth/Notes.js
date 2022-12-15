@@ -1,12 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { getAuth, signOut } from 'firebase/auth'
-import { collection, doc, getDocs } from "firebase/firestore";
-import { db } from '../../firebase/config.js'
-import notita from './Add.js'
+import { getAuth, signOut } from 'firebase/auth';
 import logo_notitas from '../../images/logo_notitas.png';
 import logout from '../../images/logout.png';
 import add from '../../images/add.png';
-import OneNote from './OneNote.js'
+import AllNotes from './AllNotes.js'
 import './Notes.css';
 
 
@@ -50,9 +47,7 @@ function Notes(props) {
       </main>
     
       <section> 
-        {/*<h2>Título </h2>
-        <h3>Aquí estará el contenido de tus notitas</h3>*/}
-        <OneNote />
+        <AllNotes />
       </section>
 
     </div>

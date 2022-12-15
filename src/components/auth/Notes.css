@@ -57,14 +57,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 12em;
-    height: 2em;
+    width: 5em;
+    height: 1.5em;
     border: 2px solid #FFABC9;
     border-radius: 30px;
     font-size: xx-large;
     color: #FFFFFF;
     font-family: Nerko One;
-    margin-bottom: 30px;
+    margin-left: 1.7em;
+    margin-bottom: 20px;
   }
 
   h3 {
@@ -73,14 +74,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15em;
-    height: 7em;
+    width: 10em;
+    height: 5em;
     border: 2px solid #FFABC9;
     border-radius: 30px;
     font-size: x-large;
     color: #FFFFFF;
     font-family: Nerko One;
-    margin-bottom: 325px;
+    margin-bottom: 140px;
   }
 
-  
+  h6 {
+    color: #FFABC9;
+  }
