@@ -53,6 +53,13 @@
     height: 70px;
   }
 
+  .allNotes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 60px
+  }
+
   h2 {
     display: flex;
     justify-content: center;
@@ -64,8 +71,8 @@
     font-size: xx-large;
     color: #FFFFFF;
     font-family: Nerko One;
-    margin-left: 1.7em;
-    margin-bottom: 20px;
+    margin-left: 1em;
+    margin-bottom: 15px;
   }
 
   h3 {
@@ -74,14 +81,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10em;
+    width: 8em;
     height: 5em;
     border: 2px solid #FFABC9;
     border-radius: 30px;
     font-size: x-large;
     color: #FFFFFF;
     font-family: Nerko One;
-    margin-bottom: 140px;
+    margin-bottom: 10px;
   }
 
   h6 {
